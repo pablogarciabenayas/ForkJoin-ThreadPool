@@ -29,8 +29,6 @@ public class Main {
 		System.out.println("Numero de procesadores disponibles: "
 				+ availableProcessors);
 
-		// String imageFile =
-		// "/home/pablo/Escritorio/pc/Practica3/casablanca.ascii.pgm";
 
 		Map<Integer, int[][]> filters = new HashMap();
 		filters.put(1, Filters.SOBEL_HORIZONTAL);
